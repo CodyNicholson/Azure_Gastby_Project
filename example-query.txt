@@ -1,0 +1,9 @@
+query MyQuery {
+  site(siteMetadata: {author: {}, description: {}, title: {}}) {
+    siteMetadata {
+      description
+      author
+      title
+    }
+  }
+}
